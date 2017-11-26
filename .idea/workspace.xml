@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f27d0f2d-dbad-4422-b182-11378f7d9075" name="Default" comment="Added">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/population_cluster.ipynb" afterPath="$PROJECT_DIR$/population_cluster.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/population_cluster.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="2" />
+              <selected id="3" />
             </state>
           </provider>
         </entry>
@@ -461,7 +460,7 @@
     <entry file="file://$PROJECT_DIR$/population_cluster.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="2" />
+          <selected id="3" />
         </state>
       </provider>
     </entry>
