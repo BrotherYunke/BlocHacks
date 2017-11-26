@@ -1,18 +1,28 @@
 import urllib.request
 import json
 
+
+def createJsonFile(info_array):
+    for thing in info_array:
+        thing = str(thing)
+    f = open("data.json","w+")
+    with f as output:
+        jsonData = json.dumps(info_array)
+        with f as a:
+            json.dump(jsonData, a)
+
 # Automatically geolocate the connecting IP
 f = urllib.request.urlopen('http://freegeoip.net/json/')
 json_string = f.read()
 f.close()
-# print(json_string)
+
+
 location = json.loads(json_string)
-# print(location)
 location_city = location['city']
 location_state = location['region_name']
 location_country = location['country_name']
 location_latitude = location['latitude']
 location_longitude = location['longitude']
-print(location_country)
-print(location_latitude)
-print(location_longitude)
+
+info_array = [location_country, location_longitude, location_latitude]
+createJsonFile(info_array)
