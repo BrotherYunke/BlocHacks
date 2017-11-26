@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f27d0f2d-dbad-4422-b182-11378f7d9075" name="Default" comment="Added">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BlocHacks Data/BlocHacks.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BlocHacks Data/LocationHistory.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/population_cluster.ipynb" afterPath="$PROJECT_DIR$/population_cluster.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,8 +71,8 @@
         <option value="$PROJECT_DIR$/geolocation.py/geolocation.py" />
         <option value="$PROJECT_DIR$/geolocation/data.json" />
         <option value="$PROJECT_DIR$/geolocation/geolocation.py" />
-        <option value="$PROJECT_DIR$/population_cluster.ipynb" />
         <option value="$PROJECT_DIR$/BlocHacks Data/BlocHacks.py" />
+        <option value="$PROJECT_DIR$/population_cluster.ipynb" />
       </list>
     </option>
   </component>

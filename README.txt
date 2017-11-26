@@ -1,3 +1,4 @@
-Mostly here for code files
-Branches will be created later for text files and presentation pruposes
-Jupyter notebook will be used for ML
+/////HOW TO USE/////
+1. Download Ethereum Wallet
+2. Rename the application to Ethereum_Wallet.exe
+3. Run Second_Life
