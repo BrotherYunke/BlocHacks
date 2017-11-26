@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f27d0f2d-dbad-4422-b182-11378f7d9075" name="Default" comment="Added">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/BlocHacks Data/BlocHacks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/BlocHacks Data/LocationHistory.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/population_cluster.ipynb" afterPath="$PROJECT_DIR$/population_cluster.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/population_cluster.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="1" />
+              <selected id="2" />
             </state>
           </provider>
         </entry>
@@ -72,6 +74,7 @@
         <option value="$PROJECT_DIR$/geolocation/data.json" />
         <option value="$PROJECT_DIR$/geolocation/geolocation.py" />
         <option value="$PROJECT_DIR$/population_cluster.ipynb" />
+        <option value="$PROJECT_DIR$/BlocHacks Data/BlocHacks.py" />
       </list>
     </option>
   </component>
@@ -393,10 +396,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BlocHacks Data/BlocHacks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/population_cluster.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="1" />
+          <selected id="2" />
         </state>
       </provider>
     </entry>
