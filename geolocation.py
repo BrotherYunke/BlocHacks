@@ -1,7 +1,6 @@
 import urllib.request
 import json
 
-
 def createJsonFile(info_array):
     for thing in info_array:
         thing = str(thing)
