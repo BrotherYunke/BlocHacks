@@ -4,9 +4,10 @@ import json
 def createJsonFile(array):
     for thing in array:
         thing = str(thing)
-    f = open("data.json","w+")
+    f = open("location_data.json","a+")
     data = json.dumps(array)
     f.write(data)
+    f.write("\n")
     f.close()
 
 # Automatically geolocate the connecting IP
