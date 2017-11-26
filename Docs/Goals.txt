@@ -1,3 +1,2 @@
 - Track location and pathing
-- Store and secure ID reliably
 - Prevent fradulant ID
