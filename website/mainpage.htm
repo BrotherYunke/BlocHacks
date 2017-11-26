@@ -44,6 +44,14 @@
   	   <div class = "mdl-card mdl-cell--6-col  mdl-shadow--2dp" style="margin:10 auto;">
 			
 
+
+
+		  	   		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWwFTqPMpt3R_jkD5dpOj7VgaJlLkum9s&callback=myMap"></script>
+
+  	   </div>
+
+  	   <div class = "mdl-card mdl-cell--6-col  mdl-shadow--2dp" style="margin:10 auto">
+
   	   		    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   	   		    <script>
   	   		      function calculateRoute(from, to) {
@@ -87,7 +95,7 @@
   	   		          return;
   	   		        }
 
-  	   		        $("#from-link, #to-link").click(function(event) {
+  	   		        $("#from-link").click(function(event) {
   	   		          event.preventDefault();
   	   		          var addressId = this.id.substring(0, this.id.indexOf("-"));
 
@@ -112,33 +120,40 @@
   	   		          });
   	   		        });
 
-
-  	   		          calculateRoute("montreal", "new york");
-
+  	   		        $("#calculate-route").submit(function(event) {
+  	   		          event.preventDefault();
+  	   		          calculateRoute($("#from").val(), $("#to").val());
+  	   		        });
   	   		      });
 
 
 
   	   		    </script>
-
   	   		    <style type="text/css">
   	   		      #map {
-  	   		        width: fill;
-  	   		        height: 300px;
-  	   		        margin-top: 0px;
+  	   		        width: 500px;
+  	   		        height: 400px;
+  	   		        margin-top: 10px;
   	   		      }
   	   		    </style>
-  	   		    
+
+  	   		    <h1>Calculate your route</h1>
+  	   		    <form id="calculate-route" name="calculate-route" action="#" method="get">
+  	   		      <label for="from">From:</label>
+  	   		      <input type="text" id="from" name="from" required="required" placeholder="An address" size="30" />
+  	   		      <a id="from-link" href="#">Get my position</a>
+  	   		      <br />
+
+  	   		              <div class="mdl-textfield mdl-js-textfield">
+  	   		                  <input class="mdl-textfield__input" type="text" id="to" name="to" required="required" size="30"/>
+  	   		                  <label class="mdl-textfield__label" for="username">Destination</label>
+  	   		              </div>
+  	   		      <br />
+
+  	   		      <input type="submit" />
+  	   		    </form>
   	   		    <div id="map"></div>
   	   		    <p id="error"></p>
-
-
-		  	   		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWwFTqPMpt3R_jkD5dpOj7VgaJlLkum9s&callback=myMap"></script>
-
-  	   </div>
-
-  	   <div class = "mdl-card mdl-cell--6-col  mdl-shadow--2dp" style="margin:10 auto">
-
 
   	   </div>
 
