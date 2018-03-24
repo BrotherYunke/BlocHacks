@@ -1,0 +1,22 @@
+- Issues 
+	- Tracking
+	- Needs (groupindividuals)
+	- ContactID information
+
+- Why ProjectSecond Life
+	- Secure (every person is given a unique identifier that can be recovered in case hardware is lost, preserves anonymity from most other users)
+	- Reliable (it can't be lost because of how blockchains networks function)
+	- Transparent data (prevents illegal activities from being hidden from users and operator)
+	- Tracks user's location (helps families reunite in case of separation, helps find missing person, provides valuable data)
+	- Ease of use
+	- We provide data, UNCHR decides what to do with it
+	- Gives refugees power to inform NPOs what their most urgent needs are
+
+- Incomplete
+	- Location analysis of refugee populations
+	- Demographic analysis
+	- More voting methodsoptions (Poll, Histogram)
+	- Grouping and group needs
+	- Automatic pathing
+	- create a blockchain network for refugees
+

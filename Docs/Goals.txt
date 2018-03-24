@@ -1,2 +1,7 @@
-- Track location and pathing
-- Prevent fradulant ID
+/////PRIMARY GOAL/////
+- Create a secure network where refugees can store their personal information
+
+/////SECOND GOALS(ARBITRARY)/////
+- Track location and pathing to help provide valuable data to the UNHCR
+- Create a transparent network to help prevent ID fraud as well as embezzlement
+- Implement new technology to replace the old UNHCR system to create a faster and more secure database
